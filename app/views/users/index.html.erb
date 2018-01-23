@@ -1,0 +1,8 @@
+<table border = '1'>
+  <tr>
+    <th>Name</th>
+  </tr>
+    <% @users.each do |user| %>
+      <tr><td><%= user.name %></td></tr>
+    <% end %>
+</table>
